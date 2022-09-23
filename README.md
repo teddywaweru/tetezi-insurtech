@@ -1,4 +1,13 @@
-# insurtech-site
+Tetezi 
+======
+# Insurance Technology Website
+
+## Concept
+Tetezi Website is intended as a user-landing page for finding out more information about the organization. 
+The website
+1. Displays the services that are offered.
+2. Offers contact details for a new client.
+3. Displays the Organization's team members.
 
 This template should help get you started developing with Vue 3 in Vite.
 
