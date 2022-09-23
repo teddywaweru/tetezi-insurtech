@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import {supportCards} from '../content/homePage.js';
+  import {supportCards} from '@/content/homePage';
   
   
 </script>
