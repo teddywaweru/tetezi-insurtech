@@ -20,6 +20,24 @@ export const homeContent = {
     },
 }
 
+export const supportCards = [
+    {
+        title: "We Support your Journey",
+        image: "../assets/imgs/esther-ann-glpYh1cWf0o-unsplash.jpg",
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+    },
+    {
+        title: "Digital Health Frontier",
+        image: "../assets/imgs/esther-ann-glpYh1cWf0o-unsplash.jpg",
+        description: "Lorem ipsum...continua."
+    },
+    {
+        title: "Consistent Partner",
+        image: "../assets/imgs/esther-ann-glpYh1cWf0o-unsplash.jpg",
+        description: "Lorem ipsum...continua."
+    }
+]
+
 export const images = {
     author:"",
     author_url:"",
@@ -28,4 +46,4 @@ export const images = {
 
 }
 
-export default {homeContent, images};
+export default {homeContent, images, supportCards};

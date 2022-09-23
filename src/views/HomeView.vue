@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TheWelcome from "../components/TheWelcome.vue";
+import SupportCards from "../components/SupportCards.vue";
 import {homeContent} from "../content/homePage.js";
 // console.log(`${contents}`)
 </script>
@@ -8,15 +8,18 @@ import {homeContent} from "../content/homePage.js";
   <!-- <main> -->
     <!-- <TheWelcome /> -->
     <div class=" ">
-
-
-      <div class=" _grow_div_container ">
-        <div class=" _grow_div md:w-1/2">
+    <!-- <div class="-z-10 text-5xl bg-[url('@/assets/imgs/juliane-liebermann-O-RKu3Aqnsw-unsplash.jpg')]"> -->
+    <!--  tuff -->
+     <!-- <img src="@/assets/imgs/juliane-liebermann-O-RKu3Aqnsw-unsplash.jpg" class="bg-bottom" > -->
+    <!-- </div> -->
+      <div class=" _grow_div_container bg-gradient-to-r from-cyan-500 to-blue-500">
+        <div class=" _grow_div md:w-1/3 items-center px-auto">
             <img
             src="@/assets/logo.svg"
             alt="Tetezi_info"
+            class=" "
             width="100" height="100">
-          <div class="">
+          <div class=" text-center">
             <h1 class=" font-bold text-xl">
               Tetezi
             </h1>
@@ -25,7 +28,7 @@ import {homeContent} from "../content/homePage.js";
             </p>
         </div>
         </div>
-        <div class=" _grow_div md:w-1/2">
+        <div class=" _grow_div md:w-auto text-3xl text-white">
           <p>
             Delivering of services using high level technology.
           </p>
@@ -33,11 +36,11 @@ import {homeContent} from "../content/homePage.js";
           <p>
             Join us in our journey of the future, where AI powers the world.
           </p>
-          <div class="_grow_div_container p-0 pt-10 h-auto">
-            <button class=" px-6">
+          <div class="_grow_div flex-row p-0 pt-8 text-2xl w-full justify-center">
+            <button class=" _router_links p-0 px-10 border-b-2 border-gray-200 mx-4 hover:border-transparent hover:bg-green-400 hover:text-white hover:shadow-md">
               Learn More!
             </button>
-            <button class="px-6">
+            <button class=" _router_links p-0 px-10 border-b-2 border-gray-200 mx-4 hover:border-transparent hover:bg-green-400 hover:text-white hover:shadow-md">
               Contact Us!
             </button>
           </div>
@@ -45,10 +48,8 @@ import {homeContent} from "../content/homePage.js";
       </div>
 
 
-      <!-- <div class=" home_divs bg-slate-200 items-center "> -->
-        <div class="_grow_div_container bg-white">
-      <!-- <div class=" "> -->
-        <div class=" _grow_div ">
+      <div class="_grow_div_container bg-white">
+        <div class=" _grow_div rounded-xl mx-4 pb-4 ">
           <h1>
             {{ homeContent["Applied AI"].title }}
           </h1>
@@ -56,12 +57,18 @@ import {homeContent} from "../content/homePage.js";
             {{ homeContent["Applied AI"].description }}
           </p>
         </div>
-        <div class=" _grow_img p-10">
-          <p>
-            Insert image here.
-          </p>
+        <div class=" _grow_img p-0 shadow-lg shadow-gray-400 rounded-2xl overflow-hidden">
+        <img src="@/assets/imgs/juliane-liebermann-O-RKu3Aqnsw-unsplash.jpg"
+        class="">
         </div>
       </div>
+
+      <!-- <div class=" _grow_div_container items-start bg-gradient-to-r from-cyan-500 to-blue-500  p-4"> -->
+      <div class=" _grow_div_container items-start bg-gradient-to-r from-cyan-300 to-blue-300  p-4">
+        <SupportCards/>
+      </div>
+          
+
       <div class=" _grow_div_container ">
         <div class=" _grow_div">
           <h1>
@@ -71,9 +78,9 @@ import {homeContent} from "../content/homePage.js";
             {{ homeContent["Applied AI"].description }}
           </p>
         </div>
-        <div class="_grow_img p-10">
+        <div class="_grow_img ">
           <img src="" alt="">
-          <p>Insert Imge here</p>
+          <p>Insert Image here</p>
         </div>
       </div>
       <div class=" _grow_div_container bg-white">
@@ -102,7 +109,7 @@ import {homeContent} from "../content/homePage.js";
             {{ homeContent["Future of Connectivity"].image_cred }}
           <!-- </p> -->
         </div>
-        <div class=" x_grow_img">
+        <div class=" _grow_img">
           insert image here
         </div>
 
