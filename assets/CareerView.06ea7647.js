@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index.d63ed9ff.js";const a={},c=s("p",null,"These are the available positions currently.",-1),r=[c];function n(_,l){return t(),o("div",null,r)}const d=e(a,[["render",n]]);export{d as default};
